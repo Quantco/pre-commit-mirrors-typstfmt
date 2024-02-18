@@ -3,4 +3,4 @@
   description: 'This hook runs typstfmt.'
   entry: typstfmt --verbose
   language: conda
-  types: [typ]
+  files: \.typ$
