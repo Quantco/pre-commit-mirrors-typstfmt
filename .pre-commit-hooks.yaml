@@ -1,5 +1,6 @@
 - id: typstfmt-conda
   name: typstfmt-conda
   description: 'This hook runs typstfmt.'
-  entry: typstfmt --check --verbose
+  entry: typstfmt --verbose
   language: conda
+  files: \.typ$
